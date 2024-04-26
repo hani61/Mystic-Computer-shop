@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.webHeader {
+  display: block;
+  background-color: #4a2a32 !important;
+}
+
+#dropdown1 {
+  cursor: pointer;
+
+}
+#dropdown1 a {
+  display: none !important;
+}
+.dropdown #content {
+  display: none !important;
+  position: absolute !important;
+}
+
+.dropdown:hover #content {
+  display: block !important;
+}
+
+#row1 {
+  background-image: url(newsite/img/back.PNG) !important;
+  width: auto;
+  background-position: right;
+}
+
+#part2 {
+  border-left: 1px solid black;
+}
